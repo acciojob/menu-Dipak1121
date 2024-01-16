@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: #27aedb;
     text-align: center;
     }
@@ -9,4 +9,44 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+} */
+.root{
+    background-color: rgb(241,245,248);
+}
+.heading{
+    color: rgb(16,42,66);
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 400px;
+}
+.div-1{
+    width: 35%;
+    border: 2px solid gold;
+}
+
+.div-2{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+.div-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    color: gold;
+}
+.para{
+    color: rgb(138,145,164);
 }
