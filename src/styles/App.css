@@ -10,12 +10,20 @@ button{
     justify-content: center;
     align-items: center;
 } */
+
 .root{
     background-color: rgb(241,245,248);
 }
+
 .heading{
     color: rgb(16,42,66);
     text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    
 }
 .card-container{
     display: flex;
@@ -48,5 +56,6 @@ button{
     color: gold;
 }
 .para{
+   
     color: rgb(138,145,164);
 }

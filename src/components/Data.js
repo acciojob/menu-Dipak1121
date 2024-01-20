@@ -75,4 +75,25 @@ let Data = [
     },
   ];
 
+  export let breakFast = Data.filter((item)=>{
+    if(item.category == "breakfast" ){
+      return true;
+    }
+    return false;
+  })
+
+  export let shakes = Data.filter((item)=>{
+    if(item.category == "shakes"){
+      return true;
+    }
+    return false;
+  })
+
+  export let lunch = Data.filter((item)=>{
+    if(item.category == "lunch" ){
+      return true;
+    }
+    return false;
+  })
+
   export default Data;
